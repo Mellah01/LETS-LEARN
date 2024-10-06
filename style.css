@@ -1,0 +1,216 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body
+{
+    background-image: url(BACKGROUND.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.h1
+ {  font-size: 12px;
+    font-weight: 200;
+    position: fixed;
+    padding: 0;
+    top: 0px;
+    left: 0cm;
+    right: 0cm;
+    text-align: center;
+    color: rgb(253, 6, 6);
+
+}
+.menu-bar 
+{
+    background: rgb(10, 109, 10);
+    text-align: center;
+    top: 0px;
+    padding: 40px; 
+}
+.menu-bar h1 
+{
+    font-size: 60px;
+    font-weight: 700;
+    position: relative;
+    padding: 0;
+    top: 0px;
+    left: 0cm;
+    right: 0;
+    text-align: center;
+    color: white;
+}
+.menu-bar ul
+{
+display: inline-flex;
+list-style: none;
+color: #ffffff;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 20px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.active,.menu-bar ul li:hover
+{
+    background: #2bab0d;
+    border-radius:10px;
+}
+.menu-bar .fa
+{
+    margin-right: 8px;
+}
+.sub-menu-1
+{
+    display:none;
+    border-radius:10px;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding:10px ;
+    border-bottom: 1px dotted #ffffff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: red;
+}
+.sub-menu-2
+{
+    display: none;
+}
+.hover-me:hover .sub-menu-2
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color: rgb(0,100,0);
+}
+.container 
+{
+    padding: 15px 0px;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    margin-top: 2cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    position: center;
+    background: rgb(104, 112, 104);
+    background-color: rgba(233, 204, 149, 0.712);
+    border-radius:10px;
+}
+.container p
+{
+    margin: 2cm;
+}
+
+
+.container h2
+{
+    text-align: center;
+    text-decoration: dotted;
+    position: center;
+}
+.container2
+{
+    padding: 15px 0px;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    margin-top: 2cm;
+    margin-bottom: 5cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    position: center;
+    background: rgb(104, 112, 104);
+    background-color: rgba(241, 226, 204, 0.753);
+    border-radius:10px;
+}
+.container2 h2
+{
+    text-align: center;
+    text-decoration: dotted;
+    position: center;
+
+
+}
+.container2 p
+{
+    margin: 1cm;
+}
+.p 
+{
+    position: relative;
+    text-align: center;
+}
+.footer
+{
+    margin: 0 0 0 2cm;
+    text-align: right;
+
+}
+.footer container3
+{
+    padding: 20px 20px;
+    margin-left: 0cm;
+    margin-right: 0cm;
+    margin-top: 0cm;
+    margin-bottom: 0cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    position: center;
+    background:cover;
+    background-color: teal;
+    text-align: center;
+}
+.sub-container .h {
+    text-align: left;
+    text-decoration: dotted;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

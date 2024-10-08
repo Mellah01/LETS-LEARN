@@ -166,11 +166,30 @@ color: #ffffff;
 .container2 p
 {
     margin: 1cm;
+    margin-left: 3cm;
+    margin-right: 3cm ;
+}
+.container2 li 
+{
+    margin-left: 3cm;
+    margin-top: 0cm;
+    margin-bottom: ocm;
 }
 .p 
 {
     position: relative;
     text-align: center;
+}
+.list p
+{
+    text-align: center;
+    margin-left: 5cm;
+}
+.list p .ul
+{
+    text-align: center;
+    position: center;
+    margin: 5cm;
 }
 .footer
 {
